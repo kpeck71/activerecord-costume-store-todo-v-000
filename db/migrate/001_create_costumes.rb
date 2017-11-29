@@ -1,4 +1,6 @@
 class CreateCostumes < ActiveRecord::Migration
+  create_table :costumes do |t|
+    c.name
 end
 
 # Create a class and inherit from ActiveRecord::Migration
